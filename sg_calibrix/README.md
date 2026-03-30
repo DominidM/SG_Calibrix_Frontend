@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Estructura General
+
+```
+sg_calibrix/
+├── src/
+│   ├── app/                    # Solo routing Next.js
+│   ├── features/               # Vertical Slices (un slice por microservicio)
+│   └── shared/                 # Código verdaderamente compartido
+├── next.config.ts
+├── tsconfig.json
+└── package.json
+```
+
+---

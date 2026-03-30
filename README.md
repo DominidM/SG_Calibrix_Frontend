@@ -2,6 +2,8 @@
 
 Frontend application built with Next.js, React, TypeScript, SCSS, and Tailwind CSS. Designed to consume a microservices backend through a centralized API Gateway.
 
+.\new-feature.ps1 -FeatureName users  
+
 ---
 
 ## 🧱 Tech Stack
